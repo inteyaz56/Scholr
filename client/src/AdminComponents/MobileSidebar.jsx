@@ -15,6 +15,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { setActive } from "../redux/userSlice"; 
 import { setUserData } from "../redux/userSlice";
 import { toast } from "react-toastify";
+import { FaFileAlt } from "react-icons/fa";
 import axios from "axios";
 import { serverUrl } from "../main";
 const MobileSidebar = ({ showMenu, setShowMenu }) => {
@@ -124,7 +125,7 @@ const MobileSidebar = ({ showMenu, setShowMenu }) => {
               active === "Exams" ? "bg-white/15" : ""
             }`}
           >
-            <MdSubject size={18} />
+            <FaFileAlt size={18} />
             Exam
           </button>
 
