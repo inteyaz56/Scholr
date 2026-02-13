@@ -119,9 +119,9 @@ const MobileSidebar = ({ showMenu, setShowMenu }) => {
           </button>
           
              <button
-            onClick={() => handleMenuClick("Exam")}
+            onClick={() => handleMenuClick("Exams")}
             className={`w-full flex items-center gap-3 px-5 py-3 text-white font-medium hover:bg-white/10 transition ${
-              active === "Exam" ? "bg-white/15" : ""
+              active === "Exams" ? "bg-white/15" : ""
             }`}
           >
             <MdSubject size={18} />
