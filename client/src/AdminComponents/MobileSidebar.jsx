@@ -125,7 +125,7 @@ const MobileSidebar = ({ showMenu, setShowMenu }) => {
               active === "Exams" ? "bg-white/15" : ""
             }`}
           >
-            <FaFileAlt size={18} />
+            <FaFileAlt size={18}  />
             Exam
           </button>
 
